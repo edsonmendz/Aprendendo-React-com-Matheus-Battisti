@@ -1,4 +1,5 @@
 import './App.css';
+import HelloWorld from './componentes/HelloWorld'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <h2>Alterando JSX</h2>
         <p>Olá, {name}</p>
         <p>soma: {sum( 2, 3)}</p>
+        <HelloWorld />
       </header>
     </div>
   );
