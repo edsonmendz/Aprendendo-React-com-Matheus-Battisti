@@ -1,6 +1,8 @@
+import styles from './Frase.module.css'
+
 function Frase () {
     return (
-        <div>
+        <div className={styles.fraseContainer}>
             <h2>componente de frase aberto!</h2>
         </div>
     )

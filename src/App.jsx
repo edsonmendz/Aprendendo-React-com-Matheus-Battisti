@@ -1,5 +1,9 @@
 import './App.css';
-import HelloWorld from './componentes/HelloWorld'
+import HelloWorld from './componentes/HelloWorld';
+import SayMyName from './componentes/SayMyName';
+import Pessoa from './componentes/Pessoa';
+import Frase from './componentes/Frase';
+import List from './componentes/List';
 
 function App() {
 
@@ -12,12 +16,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <h2>Alterando JSX</h2>
-        <p>Olá, {name}</p>
-        <p>soma: {sum( 2, 3)}</p>
-        <HelloWorld />
-      </header>
+      <List />
     </div>
   );
 }
