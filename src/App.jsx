@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { BrowserRouter as Router} from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 
@@ -5,11 +6,18 @@ import Home from "./pages/Home";
 import Empresa from "./pages/Empresa";
 import Contato from "./pages/Contato";
 import Navbar from "./componentes/Navbar";
+=======
+import './App.css';
+import { useState } from 'react';
+import SeuNome from './componentes/SeuNome';
+import Saudacao from './componentes/Saudacao';
+>>>>>>> parent of d7e88cf (atualizando?)
 
 function App() {  
 
   return (
     <div className="App">
+<<<<<<< HEAD
       <Router>
         <Navbar />
         <Routes>          
@@ -18,6 +26,11 @@ function App() {
           <Route path="/contato" element={<Contato />}></Route>
         </Routes>
       </Router>
+=======
+      <h1>State Lift</h1>
+      <SeuNome setNome={setNome}/>
+      <Saudacao nome={nome} />
+>>>>>>> parent of d7e88cf (atualizando?)
       
     </div>
   );
