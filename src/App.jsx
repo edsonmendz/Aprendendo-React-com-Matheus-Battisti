@@ -8,7 +8,6 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Renderização Condicional</h1>
       <h1>State Lift</h1>
       <SeuNome setNome={setNome}/>
       <Saudacao nome={nome} />
