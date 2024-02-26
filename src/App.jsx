@@ -18,6 +18,7 @@ function App() {
   return (
     <div className="App">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <Router>
         <Navbar />
         <Routes>          
@@ -27,6 +28,9 @@ function App() {
         </Routes>
       </Router>
 =======
+=======
+      <h1>Renderização Condicional</h1>
+>>>>>>> parent of dc78519 (state lift)
       <h1>State Lift</h1>
       <SeuNome setNome={setNome}/>
       <Saudacao nome={nome} />
